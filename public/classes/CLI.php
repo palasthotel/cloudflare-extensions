@@ -35,6 +35,11 @@ class CLI {
 			exit;
 		}
 
+		if(!class_exists("\CF\WordPress\Hooks")){
+			\WP_CLI::error("CloudFlare plugin may not be active.");
+			return;
+		}
+
 
 		$cloudflareHooks = new Hooks();
 

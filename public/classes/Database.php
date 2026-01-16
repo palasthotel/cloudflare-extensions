@@ -6,12 +6,12 @@ namespace Palasthotel\CloudflareExtensions;
 
 use wpdb;
 
-/**
- * @property  wpdb $wpdb
- * @property string table
- */
+
 class Database {
 
+    /** @var wpdb */
+    public $wpdb;
+    public string $table;
 	/**
 	 * Database constructor.
 	 */

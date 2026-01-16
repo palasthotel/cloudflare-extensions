@@ -8,11 +8,9 @@ namespace Palasthotel\CloudflareExtensions;
  * @property Plugin plugin
  */
 abstract class _Component {
-	/**
-	 * _Component constructor.
-	 *
-	 * @param Plugin $plugin
-	 */
+
+    public Plugin $plugin;
+
 	public function __construct(Plugin $plugin) {
 		$this->plugin = $plugin;
 		$this->onCreate();

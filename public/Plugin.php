@@ -11,12 +11,11 @@
 namespace Palasthotel\CloudflareExtensions;
 
 
-/**
- * @property Database database
- * @property CloudflareHooks cloudflareHooks
- * @property Notice notice
- */
 class Plugin {
+
+    public Database $database;
+    public CloudflareHooks $cloudflareHooks;
+    public Notice $notice;
 
 	const SCHEDULE_PURGE_QUEUE = "cloudflare_ext_purge_queue";
 

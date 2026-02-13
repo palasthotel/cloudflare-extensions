@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Cloudflare Extensions
  * Description: Boost and extend Cloudflare plugin.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: PALASTHOTEL (by Edward Bock)
  * Author URI: https://palasthotel.de
  */
